@@ -284,6 +284,15 @@ a {
     .productive-content {
         text-align: center;
     }
+    
+    .container main .productive .productive-content .productive-title{
+        text-align: center;
+        font-size: 2.2em;
+    }
+
+    .productive-content br{
+        display: none;
+    }
 
     .testimonials {
         display: flex;
