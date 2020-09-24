@@ -276,3 +276,38 @@ a {
 .container .icons .pinterest {
     margin-right: 1rem;
 }
+
+/* TABLET Breakpoint*/
+@media screen and (max-width: 1024px){
+    .container main .productive {
+        padding: 0 50px;
+        display: block;
+        text-align: center;
+    }
+
+    .container main .productive .productive-content .productive-title {
+        text-align: center;
+    }
+
+    .container main .get-access {
+        position: absolute;
+        left: 15vw;
+    }
+
+    .container main .get-access .call-to-action{
+        margin-top: 1rem;
+    }
+
+    .container footer .footer-container {
+        display: block;
+    }
+
+    .container footer .footer-container nav {
+        margin-top: 4rem;
+    }
+
+    .container footer .footer-container .icons {
+        margin: 0 35vw;
+    }
+
+}
